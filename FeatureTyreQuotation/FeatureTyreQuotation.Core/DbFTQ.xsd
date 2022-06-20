@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DbFTQ" targetNamespace="http://tempuri.org/DbFTQ.xsd" xmlns:mstns="http://tempuri.org/DbFTQ.xsd" xmlns="http://tempuri.org/DbFTQ.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DbFTQ" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DbFTQ" msprop:Generator_UserDSName="DbFTQ">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Customer" msprop:Generator_TableClassName="CustomerDataTable" msprop:Generator_TableVarName="tableCustomer" msprop:Generator_TablePropName="Customer" msprop:Generator_RowDeletingName="CustomerRowDeleting" msprop:Generator_RowChangingName="CustomerRowChanging" msprop:Generator_RowEvHandlerName="CustomerRowChangeEventHandler" msprop:Generator_RowDeletedName="CustomerRowDeleted" msprop:Generator_UserTableName="Customer" msprop:Generator_RowChangedName="CustomerRowChanged" msprop:Generator_RowEvArgName="CustomerRowChangeEvent" msprop:Generator_RowClassName="CustomerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" msprop:Generator_UserColumnName="CustomerID" type="xs:string" />
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="PhoneNumber" msprop:Generator_ColumnVarNameInTable="columnPhoneNumber" msprop:Generator_ColumnPropNameInRow="PhoneNumber" msprop:Generator_ColumnPropNameInTable="PhoneNumberColumn" msprop:Generator_UserColumnName="PhoneNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailAddress" msprop:Generator_ColumnVarNameInTable="columnEmailAddress" msprop:Generator_ColumnPropNameInRow="EmailAddress" msprop:Generator_ColumnPropNameInTable="EmailAddressColumn" msprop:Generator_UserColumnName="EmailAddress" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Quote" msprop:Generator_TableClassName="QuoteDataTable" msprop:Generator_TableVarName="tableQuote" msprop:Generator_TablePropName="Quote" msprop:Generator_RowDeletingName="QuoteRowDeleting" msprop:Generator_RowChangingName="QuoteRowChanging" msprop:Generator_RowEvHandlerName="QuoteRowChangeEventHandler" msprop:Generator_RowDeletedName="QuoteRowDeleted" msprop:Generator_UserTableName="Quote" msprop:Generator_RowChangedName="QuoteRowChanged" msprop:Generator_RowEvArgName="QuoteRowChangeEvent" msprop:Generator_RowClassName="QuoteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuoteID" msprop:Generator_ColumnVarNameInTable="columnQuoteID" msprop:Generator_ColumnPropNameInRow="QuoteID" msprop:Generator_ColumnPropNameInTable="QuoteIDColumn" msprop:Generator_UserColumnName="QuoteID" type="xs:string" />
+              <xs:element name="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" msprop:Generator_UserColumnName="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="Tyre" msprop:Generator_ColumnVarNameInTable="columnTyre" msprop:Generator_ColumnPropNameInRow="Tyre" msprop:Generator_ColumnPropNameInTable="TyreColumn" msprop:Generator_UserColumnName="Tyre" type="xs:string" minOccurs="0" />
+              <xs:element name="QuoteDateTime" msprop:Generator_ColumnVarNameInTable="columnQuoteDateTime" msprop:Generator_ColumnPropNameInRow="QuoteDateTime" msprop:Generator_ColumnPropNameInTable="QuoteDateTimeColumn" msprop:Generator_UserColumnName="QuoteDateTime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tyre" msprop:Generator_TableClassName="TyreDataTable" msprop:Generator_TableVarName="tableTyre" msprop:Generator_TablePropName="Tyre" msprop:Generator_RowDeletingName="TyreRowDeleting" msprop:Generator_RowChangingName="TyreRowChanging" msprop:Generator_RowEvHandlerName="TyreRowChangeEventHandler" msprop:Generator_RowDeletedName="TyreRowDeleted" msprop:Generator_UserTableName="Tyre" msprop:Generator_RowChangedName="TyreRowChanged" msprop:Generator_RowEvArgName="TyreRowChangeEvent" msprop:Generator_RowClassName="TyreRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TyreID" msprop:Generator_ColumnVarNameInTable="columnTyreID" msprop:Generator_ColumnPropNameInRow="TyreID" msprop:Generator_ColumnPropNameInTable="TyreIDColumn" msprop:Generator_UserColumnName="TyreID" type="xs:string" />
+              <xs:element name="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" msprop:Generator_UserColumnName="Width" type="xs:string" />
+              <xs:element name="Profile" msprop:Generator_ColumnVarNameInTable="columnProfile" msprop:Generator_ColumnPropNameInRow="Profile" msprop:Generator_ColumnPropNameInTable="ProfileColumn" msprop:Generator_UserColumnName="Profile" type="xs:string" />
+              <xs:element name="Rim" msprop:Generator_ColumnVarNameInTable="columnRim" msprop:Generator_ColumnPropNameInRow="Rim" msprop:Generator_ColumnPropNameInTable="RimColumn" msprop:Generator_UserColumnName="Rim" type="xs:string" />
+              <xs:element name="TyreType" msprop:Generator_ColumnVarNameInTable="columnTyreType" msprop:Generator_ColumnPropNameInRow="TyreType" msprop:Generator_ColumnPropNameInTable="TyreTypeColumn" msprop:Generator_UserColumnName="TyreType" type="xs:string" />
+              <xs:element name="RoadType" msprop:Generator_ColumnVarNameInTable="columnRoadType" msprop:Generator_ColumnPropNameInRow="RoadType" msprop:Generator_ColumnPropNameInTable="RoadTypeColumn" msprop:Generator_UserColumnName="RoadType" type="xs:string" />
+              <xs:element name="RollingDiameter" msprop:Generator_ColumnVarNameInTable="columnRollingDiameter" msprop:Generator_ColumnPropNameInRow="RollingDiameter" msprop:Generator_ColumnPropNameInTable="RollingDiameterColumn" msprop:Generator_UserColumnName="RollingDiameter" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TyreItem" msprop:Generator_TableClassName="TyreItemDataTable" msprop:Generator_TableVarName="tableTyreItem" msprop:Generator_TablePropName="TyreItem" msprop:Generator_RowDeletingName="TyreItemRowDeleting" msprop:Generator_RowChangingName="TyreItemRowChanging" msprop:Generator_RowEvHandlerName="TyreItemRowChangeEventHandler" msprop:Generator_RowDeletedName="TyreItemRowDeleted" msprop:Generator_UserTableName="TyreItem" msprop:Generator_RowChangedName="TyreItemRowChanged" msprop:Generator_RowEvArgName="TyreItemRowChangeEvent" msprop:Generator_RowClassName="TyreItemRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TyreItemID" msprop:Generator_ColumnVarNameInTable="columnTyreItemID" msprop:Generator_ColumnPropNameInRow="TyreItemID" msprop:Generator_ColumnPropNameInTable="TyreItemIDColumn" msprop:Generator_UserColumnName="TyreItemID" type="xs:string" />
+              <xs:element name="TyreID" msprop:Generator_ColumnVarNameInTable="columnTyreID" msprop:Generator_ColumnPropNameInRow="TyreID" msprop:Generator_ColumnPropNameInTable="TyreIDColumn" msprop:Generator_UserColumnName="TyreID" type="xs:string" minOccurs="0" />
+              <xs:element name="Brand" msprop:Generator_ColumnVarNameInTable="columnBrand" msprop:Generator_ColumnPropNameInRow="Brand" msprop:Generator_ColumnPropNameInTable="BrandColumn" msprop:Generator_UserColumnName="Brand" type="xs:string" minOccurs="0" />
+              <xs:element name="Mode" msprop:Generator_ColumnVarNameInTable="columnMode" msprop:Generator_ColumnPropNameInRow="Mode" msprop:Generator_ColumnPropNameInTable="ModeColumn" msprop:Generator_UserColumnName="Mode" type="xs:string" minOccurs="0" />
+              <xs:element name="LoadRating" msprop:Generator_ColumnVarNameInTable="columnLoadRating" msprop:Generator_ColumnPropNameInRow="LoadRating" msprop:Generator_ColumnPropNameInTable="LoadRatingColumn" msprop:Generator_UserColumnName="LoadRating" type="xs:string" minOccurs="0" />
+              <xs:element name="SpeedRating" msprop:Generator_ColumnVarNameInTable="columnSpeedRating" msprop:Generator_ColumnPropNameInRow="SpeedRating" msprop:Generator_ColumnPropNameInTable="SpeedRatingColumn" msprop:Generator_UserColumnName="SpeedRating" type="xs:string" minOccurs="0" />
+              <xs:element name="CostPrice" msprop:Generator_ColumnVarNameInTable="columnCostPrice" msprop:Generator_ColumnPropNameInRow="CostPrice" msprop:Generator_ColumnPropNameInTable="CostPriceColumn" msprop:Generator_UserColumnName="CostPrice" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MarkupItem" msprop:Generator_TableClassName="MarkupItemDataTable" msprop:Generator_TableVarName="tableMarkupItem" msprop:Generator_TablePropName="MarkupItem" msprop:Generator_RowDeletingName="MarkupItemRowDeleting" msprop:Generator_RowChangingName="MarkupItemRowChanging" msprop:Generator_RowEvHandlerName="MarkupItemRowChangeEventHandler" msprop:Generator_RowDeletedName="MarkupItemRowDeleted" msprop:Generator_UserTableName="MarkupItem" msprop:Generator_RowChangedName="MarkupItemRowChanged" msprop:Generator_RowEvArgName="MarkupItemRowChangeEvent" msprop:Generator_RowClassName="MarkupItemRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MarkupName" msprop:Generator_ColumnVarNameInTable="columnMarkupName" msprop:Generator_ColumnPropNameInRow="MarkupName" msprop:Generator_ColumnPropNameInTable="MarkupNameColumn" msprop:Generator_UserColumnName="MarkupName" type="xs:string" />
+              <xs:element name="MarkupAmount" msprop:Generator_ColumnVarNameInTable="columnMarkupAmount" msprop:Generator_ColumnPropNameInRow="MarkupAmount" msprop:Generator_ColumnPropNameInTable="MarkupAmountColumn" msprop:Generator_UserColumnName="MarkupAmount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TyreMarkup" msprop:Generator_TableClassName="TyreMarkupDataTable" msprop:Generator_TableVarName="tableTyreMarkup" msprop:Generator_TablePropName="TyreMarkup" msprop:Generator_RowDeletingName="TyreMarkupRowDeleting" msprop:Generator_RowChangingName="TyreMarkupRowChanging" msprop:Generator_RowEvHandlerName="TyreMarkupRowChangeEventHandler" msprop:Generator_RowDeletedName="TyreMarkupRowDeleted" msprop:Generator_UserTableName="TyreMarkup" msprop:Generator_RowChangedName="TyreMarkupRowChanged" msprop:Generator_RowEvArgName="TyreMarkupRowChangeEvent" msprop:Generator_RowClassName="TyreMarkupRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TyreMarkupID" msprop:Generator_ColumnVarNameInTable="columnTyreMarkupID" msprop:Generator_ColumnPropNameInRow="TyreMarkupID" msprop:Generator_ColumnPropNameInTable="TyreMarkupIDColumn" msprop:Generator_UserColumnName="TyreMarkupID" type="xs:string" />
+              <xs:element name="TyreID" msprop:Generator_ColumnVarNameInTable="columnTyreID" msprop:Generator_ColumnPropNameInRow="TyreID" msprop:Generator_ColumnPropNameInTable="TyreIDColumn" msprop:Generator_UserColumnName="TyreID" type="xs:string" minOccurs="0" />
+              <xs:element name="MarkupName" msprop:Generator_ColumnVarNameInTable="columnMarkupName" msprop:Generator_ColumnPropNameInRow="MarkupName" msprop:Generator_ColumnPropNameInTable="MarkupNameColumn" msprop:Generator_UserColumnName="MarkupName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QuotationItem" msprop:Generator_TableClassName="QuotationItemDataTable" msprop:Generator_TableVarName="tableQuotationItem" msprop:Generator_TablePropName="QuotationItem" msprop:Generator_RowDeletingName="QuotationItemRowDeleting" msprop:Generator_RowChangingName="QuotationItemRowChanging" msprop:Generator_RowEvHandlerName="QuotationItemRowChangeEventHandler" msprop:Generator_RowDeletedName="QuotationItemRowDeleted" msprop:Generator_UserTableName="QuotationItem" msprop:Generator_RowChangedName="QuotationItemRowChanged" msprop:Generator_RowEvArgName="QuotationItemRowChangeEvent" msprop:Generator_RowClassName="QuotationItemRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QuotationItemID" msprop:Generator_ColumnVarNameInTable="columnQuotationItemID" msprop:Generator_ColumnPropNameInRow="QuotationItemID" msprop:Generator_ColumnPropNameInTable="QuotationItemIDColumn" msprop:Generator_UserColumnName="QuotationItemID" type="xs:string" />
+              <xs:element name="QuoteID" msprop:Generator_ColumnVarNameInTable="columnQuoteID" msprop:Generator_ColumnPropNameInRow="QuoteID" msprop:Generator_ColumnPropNameInTable="QuoteIDColumn" msprop:Generator_UserColumnName="QuoteID" type="xs:string" minOccurs="0" />
+              <xs:element name="TyreItemID" msprop:Generator_ColumnVarNameInTable="columnTyreItemID" msprop:Generator_ColumnPropNameInRow="TyreItemID" msprop:Generator_ColumnPropNameInTable="TyreItemIDColumn" msprop:Generator_UserColumnName="TyreItemID" type="xs:string" minOccurs="0" />
+              <xs:element name="TyreMarkupID" msprop:Generator_ColumnVarNameInTable="columnTyreMarkupID" msprop:Generator_ColumnPropNameInRow="TyreMarkupID" msprop:Generator_ColumnPropNameInTable="TyreMarkupIDColumn" msprop:Generator_UserColumnName="TyreMarkupID" type="xs:string" minOccurs="0" />
+              <xs:element name="SalesPrice" msprop:Generator_ColumnVarNameInTable="columnSalesPrice" msprop:Generator_ColumnPropNameInRow="SalesPrice" msprop:Generator_ColumnPropNameInTable="SalesPriceColumn" msprop:Generator_UserColumnName="SalesPrice" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="CustomerKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Customer" />
+      <xs:field xpath="mstns:CustomerID" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:Quote" />
+      <xs:field xpath="mstns:Tyre" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Quote" />
+      <xs:field xpath="mstns:QuoteID" />
+    </xs:unique>
+    <xs:unique name="Tyre_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Tyre" />
+      <xs:field xpath="mstns:TyreID" />
+    </xs:unique>
+    <xs:unique name="TyreItem_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TyreItem" />
+      <xs:field xpath="mstns:TyreItemID" />
+    </xs:unique>
+    <xs:unique name="MarkupItem_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MarkupItem" />
+      <xs:field xpath="mstns:MarkupName" />
+    </xs:unique>
+    <xs:unique name="TyreMarkup_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TyreMarkup" />
+      <xs:field xpath="mstns:TyreMarkupID" />
+    </xs:unique>
+    <xs:unique name="TyreMarkup_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//mstns:TyreMarkup" />
+      <xs:field xpath="mstns:MarkupName" />
+    </xs:unique>
+    <xs:unique name="QuotationItem_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:QuotationItem" />
+      <xs:field xpath="mstns:QuoteID" />
+    </xs:unique>
+    <xs:unique name="QuotationItem_Constraint2" msdata:ConstraintName="Constraint2" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:QuotationItem" />
+      <xs:field xpath="mstns:QuotationItemID" />
+    </xs:unique>
+    <xs:unique name="Constraint3">
+      <xs:selector xpath=".//mstns:QuotationItem" />
+      <xs:field xpath="mstns:TyreMarkupID" />
+    </xs:unique>
+    <xs:unique name="Constraint4">
+      <xs:selector xpath=".//mstns:QuotationItem" />
+      <xs:field xpath="mstns:TyreItemID" />
+    </xs:unique>
+    <xs:keyref name="FK_QuotationItem_TyreMarkup" refer="Constraint3" msprop:rel_Generator_UserChildTable="TyreMarkup" msprop:rel_Generator_ChildPropName="GetTyreMarkupRows" msprop:rel_Generator_UserRelationName="FK_QuotationItem_TyreMarkup" msprop:rel_Generator_RelationVarName="relationFK_QuotationItem_TyreMarkup" msprop:rel_Generator_UserParentTable="QuotationItem" msprop:rel_Generator_ParentPropName="QuotationItemRow">
+      <xs:selector xpath=".//mstns:TyreMarkup" />
+      <xs:field xpath="mstns:TyreMarkupID" />
+    </xs:keyref>
+    <xs:keyref name="FK_TyreMarkup_MarkupItem" refer="TyreMarkup_Constraint2" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:MarkupItem" />
+      <xs:field xpath="mstns:MarkupName" />
+    </xs:keyref>
+    <xs:keyref name="FK_QuotationItem_TyreItem" refer="Constraint4" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:TyreItem" />
+      <xs:field xpath="mstns:TyreItemID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Tyre_TyreItem" refer="Tyre_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:TyreItem" />
+      <xs:field xpath="mstns:TyreID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Quote_Tyre" refer="Constraint2" msprop:rel_Generator_UserChildTable="Tyre" msprop:rel_Generator_ChildPropName="GetTyreRows" msprop:rel_Generator_UserRelationName="FK_Quote_Tyre" msprop:rel_Generator_ParentPropName="QuoteRow" msprop:rel_Generator_RelationVarName="relationFK_Quote_Tyre" msprop:rel_Generator_UserParentTable="Quote" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:Tyre" />
+      <xs:field xpath="mstns:TyreID" />
+    </xs:keyref>
+    <xs:keyref name="FK_QuotationItem_Quote" refer="QuotationItem_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:Quote" />
+      <xs:field xpath="mstns:QuoteID" />
+    </xs:keyref>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Quote_Customer" msdata:parent="Quote" msdata:child="Customer" msdata:parentkey="CustomerID" msdata:childkey="CustomerID" msprop:Generator_UserChildTable="Customer" msprop:Generator_ChildPropName="GetCustomerRows" msprop:Generator_UserRelationName="Quote_Customer" msprop:Generator_RelationVarName="relationQuote_Customer" msprop:Generator_UserParentTable="Quote" msprop:Generator_ParentPropName="QuoteRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

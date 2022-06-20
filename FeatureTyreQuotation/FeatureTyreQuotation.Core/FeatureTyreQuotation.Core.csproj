@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>FeatureTyreQuotation.Core</RootNamespace>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+   <ItemGroup>
+     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
+     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0">
+       <PrivateAssets>all</PrivateAssets>
+       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+     </PackageReference>
+     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+   </ItemGroup>
+
+   <ItemGroup>
+     <Compile Update="DbFTQ.Designer.cs">
+       <DesignTime>True</DesignTime>
+       <AutoGen>True</AutoGen>
+       <DependentUpon>DbFTQ.xsd</DependentUpon>
+     </Compile>
+   </ItemGroup>
+
+   <ItemGroup>
+     <None Update="DbFTQ.xsd">
+       <Generator>MSDataSetGenerator</Generator>
+       <LastGenOutput>DbFTQ.Designer.cs</LastGenOutput>
+     </None>
+   </ItemGroup>
+</Project>
